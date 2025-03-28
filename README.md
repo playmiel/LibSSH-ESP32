@@ -73,6 +73,21 @@ https://www.libssh.org
 Please read the file 'CONTRIBUTING.md' next to this README file. It explains
 our copyright policy and how you should send patches for upstream inclusion.
 
+
+
 Have fun and happy libssh hacking!
 
 The libssh Team
+
+LittleFS
+==================================
+
+  
+
+To use LittleFS add -DLIBSSH_ESP32_COMPAT_HOMEDIR=\"/littlefs\" in platformio.ini. build_flags example section:
+
+  
+
+    build_flags =
+    
+    -DLIBSSH_ESP32_COMPAT_HOMEDIR=\"/littlefs\"
