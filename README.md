@@ -79,6 +79,8 @@ Have fun and happy libssh hacking!
 
 The libssh Team
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 LittleFS
 ==================================
 
@@ -91,3 +93,4 @@ To use LittleFS add -DLIBSSH_ESP32_COMPAT_HOMEDIR=\"/littlefs\" in platformio.in
     build_flags =
     
     -DLIBSSH_ESP32_COMPAT_HOMEDIR=\"/littlefs\"
+
